@@ -1,0 +1,16 @@
+{
+    "name": "OPNsense Restarter DEV",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "features": {
+        "ghcr.io/postfinance/devcontainer-features/go:0.2.0": {
+            "version": "1.25.1"
+        },
+        "ghcr.io/postfinance/devcontainer-features/docker-out:0.2.0": {
+            "version": "latest",
+            "composeVersion": "none",
+            "buildxVersion": "none"
+        }
+    }
+}
